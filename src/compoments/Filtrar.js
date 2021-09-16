@@ -1,31 +1,49 @@
 import React from "react";
+import styled from "styled-components";
+
+const Div = styled.div`background-color: aqua;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+padding: 15px;
+margin: 12px;
+border-radius: 12px;
+*{
+    padding: 0;
+    margin: 0;
+
+}`
+
+
+
 
 
 class Filtrar extends React.Component {
     render() {
         return (
-            <div>
+            <Div>
                 <h3>Filtros</h3>
-                 <label>
+                <div>
+                <label>
                      "Valor mínimo:"
-                     <br />
                      <input type="number" value="" />
                  </label>
-                 <br />
-                 <br />
+                </div>
+                
+                 <div>
                  <label>
                      "Valor máximo:"
-                     <br />
+                    
                      <input type="number" value="" />
                  </label>
-                 <br />
-                 <br />
+                 </div>
+                
+                 <div>
                  <label>
                      "Buscar por nome:"
-                     <br />
                      <input type="number" value="" />
                  </label>
-            </div>
+                 </div>
+            </Div>
         )
     }
 }
