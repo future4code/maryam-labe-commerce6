@@ -15,6 +15,7 @@ import {Cabecalho} from './compoments/Cabecalho';
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
   padding: 16px;
+  border-radius: 14px;
 
   `
   const Img = styled.img`

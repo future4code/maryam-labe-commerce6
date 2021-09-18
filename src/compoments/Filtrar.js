@@ -26,14 +26,14 @@ class Filtrar extends React.Component {
                 <h3>Filtros</h3>
                 <div>
                 <label>
-                     "Valor mínimo:"
+                     Valor mínimo:
                      <input type="number" value="" />
                  </label>
                 </div>
                 
                  <div>
                  <label>
-                     "Valor máximo:"
+                     Valor máximo:
                     
                      <input type="number" value="" />
                  </label>
@@ -41,7 +41,7 @@ class Filtrar extends React.Component {
                 
                  <div>
                  <label>
-                     "Buscar por nome:"
+                     Buscar por nome:
                      <input type="number" value="" />
                  </label>
                  </div>

@@ -5,8 +5,7 @@ import Logoo from "./Img/logo.jpg"
 const Header = styled.h1`
 display: flex;
 align-items: center;
-background-color: black;
-color: white;
+background-color: agua;
 border-radius: 14px;
 margin: 15px;
 padding: 1px 20px;

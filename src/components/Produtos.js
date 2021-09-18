@@ -33,6 +33,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
+
 // import {IconeComContador} from '../IconeComContador/IconeComContador'
 
 // import iconeCoracaoBranco from '../../img/favorite-white.svg'
@@ -44,13 +45,17 @@ const CardContainer = styled.div`
   border: 1px solid gray;
   width: 300px;
   margin-bottom: 10px;
+  
 `
 
 const EstiloCarrinho = styled.button`
   height: 40px;
   display: flex;
-  align-items: center;
   padding-left: 10px;
+  border-radius: 12px;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
 `
 
 const PostMain = styled.div`
