@@ -34,13 +34,6 @@ import React from 'react'
 import styled from 'styled-components'
 
 
-// import {IconeComContador} from '../IconeComContador/IconeComContador'
-
-// import iconeCoracaoBranco from '../../img/favorite-white.svg'
-// import iconeCoracaoPreto from '../../img/favorite.svg'
-// import iconeComentario from '../../img/comment_icon.svg'
-// import {SecaoComentario} from '../SecaoComentario/SecaoComentario'
-
 const CardContainer = styled.div`
   border: 1px solid gray;
   width: 300px;
@@ -71,51 +64,11 @@ const PostPhoto = styled.img`
 `
 
 class Produtos extends React.Component {
-//   state = {
-//     curtido: false,
-//     numeroCurtidas: 1,
-//     comentando: false,
-//     numeroComentarios: 0
-//   }
-
-//   onClickCurtida = () => {
-//     let novoNumeroCurtidas
-
-//     if(this.state.curtido) {
-//       novoNumeroCurtidas = this.state.numeroCurtidas - 1
-//     } else {
-//       novoNumeroCurtidas = this.state.numeroCurtidas + 1
-//     }
-
-//     this.setState({
-//       curtido: !this.state.curtido,
-//       numeroCurtidas: novoNumeroCurtidas
-
-//     })
-//     console.log('Curtiu!')
-//   }
-
 
   render() {
-    // let iconeCurtida
-
-    // if(this.state.curtido) {
-    //   iconeCurtida = iconeCoracaoPreto
-    // } else {
-    //   iconeCurtida = iconeCoracaoBranco
-    // }
-
-    // let componenteComentario
-
-    // if(this.state.comentando) {
-    //   componenteComentario = <SecaoComentario aoEnviar={this.aoEnviarComentario}/>
-    // }
 
     return <CardContainer>
-      {/* <PostHeader>
-        <UserPhoto src={this.props.fotoUsuario} alt={'Imagem do usuario'}/>
-        <p>{this.props.nomeUsuario}</p>
-      </PostHeader> */}
+
 
       <PostPhoto src={this.props.fotoProduto} alt={'Imagem do post'}/>
 
