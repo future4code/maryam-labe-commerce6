@@ -8,8 +8,6 @@ class Carrinho extends React.Component {
     <div>
         <h3> Carrinho </h3>
         <div> 
-            {/* <p>1x</p>
-            <p>Produto Legal</p> */}
             <button>Remover</button>
         </div>
 
@@ -17,5 +15,4 @@ class Carrinho extends React.Component {
     );
   }
 }
-
 export default Carrinho;
