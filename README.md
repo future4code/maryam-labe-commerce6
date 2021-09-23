@@ -1,4 +1,4 @@
-Labe-E-Commerce
+Labe-Ecommerce
 
 Link do Surge:
 http://tasteless-horn.surge.sh/
